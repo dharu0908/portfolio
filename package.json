@@ -1,0 +1,18 @@
+
+{
+  "name": "dharmik-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Professional portfolio for Dharmik Patel, Data Scientist & System Developer.",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "data-science",
+    "dharmik-patel"
+  ],
+  "author": "Dharmik Patel",
+  "license": "MIT"
+}

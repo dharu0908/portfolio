@@ -1,0 +1,15 @@
+
+services:
+  - type: static
+    name: dharmik-portfolio
+    env: static
+    # This command safely injects your GEMINI_API_KEY into the code during the build phase on Render
+    buildCommand: 'sed -i "s|process.env.GEMINI_API_KEY|\"$GEMINI_API_KEY\"|g" services/gemini.ts'
+    publishPath: "."
+    headers:
+      - path: "/*"
+        name: "Cache-Control"
+        value: "public, max-age=3600"
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false

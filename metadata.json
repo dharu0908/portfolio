@@ -1,0 +1,7 @@
+{
+  "name": "Dharmik Patel Portfolio",
+  "description": "A professional portfolio for Dharmik Patel, showcasing expertise in Data Science, System Development, and Analytics, featuring an interactive AI assistant powered by Gemini.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
